@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-md-12" style=" padding: 0px">
+          <div class="content">
+            <div class="jumbotron" style="margin: 0px">
+
+              <p class="username">
+                <strong>Priyanka Rao</strong>
+              </p>
+              <hr />
+              <div class="my-4 abt" style="text-align: justify">
+                <p>I am a recent master’s graduate in Business Analytics from University of North Texas, Denton. During my education,
+                  I was introduced to data analysis tools such as Sas(Statistical Analysis Software), Visual studio code and Google collaboratory for Python, my sql workbench, Tableau for Data visualization, 
+                  IBM Spss statistics, Excel for data analysis, and programming languages such as Python(Pandas) and Sql, and worked on Projects for the same. A few unique and interesting packages that I used
+                  for data analysis in python were Pandas, Dataprep, sweetviz, pycaret for data analysis. I religiously utilized my critical thinking, problem solving, research, time management and communication skills
+                  in successful completion of my project goals.
+                </p>
+                <p class="lead">
+                  <div class="txtcntr">
+                    <a class="btn btn-primary btn-lg txtupper" href="#projects" role="button">Projects</a>
+                    <a class="btn btn-primary btn-lg txtupper" href="#contact" role="button">Contact</a>
+                  </div>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- projects -->
+    <div class='main main-raised' id='projects'>
+      <div class='container'>
+        <div class="row" style=" padding: 10px 0px">
+          <div class="col-md-4" style="margin: 10px 0px">
+            <div class="card h-100">
+              <img class="card-img-top" src="images/et.jpg" alt="Card" title="React App" style="width: 80%; height: auto; margin: 20px auto"
+              />
+              <div class="card-body">
+                <h5 class="card-title txtcntr">
+                  
+                    <strong>Water pump functionailty prediction</strong>
+                  </a>
+                </h5>
+                <p>
+                  <hr/>
+                  <strong>Tool used:</strong> SAS(Statistical Analysis Software) <br>
+          
+                  <strong>Models applied:</strong> Logistic Regression, Gradient Boosting, HP Forest, AutoNeural, and Decision Tree.
+                  <hr/>
+                </p>                
+                <p style="text-align: justify" class="card-text txtcntr"> <strong>Goal:</strong> To identify the best-fitting model or algorithm that can predict which water pipes in the Tanzanian government dataset are functional and non-functional. Data associated with water pipes and numerous waterpipe-related attributes were obtained from the government. <br>
+                  Dataset consists of 41 columns and 47,520 rows, with variables including basin, extraction, and water quality.
+                <strong>Conclusion:</strong> HP Forest model proved to be the best model with accuracy approximately 80% to predict the water pump functionality when compared to the other models like Logistic Regression, Gradient Boosting, AutoNeural, and Decision Tree.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" style="margin: 10px auto">
+            <div class="card h-100">
+              <img class="card-img-top" src="images/ts.jpg" alt="Card" style="width: 80%; height: auto; margin: 20px auto" />
+              <div class="card-body">
+                <h5 class="card-title txtcntr">
+                    <strong>Texas schools standard score prediction</strong>
+                  </a>
+                </h5>
+                <p>
+                  <hr/>
+                  <strong>Tool used:</strong> Google collaboratory <br>
+                  <strong>Packages used:</strong> Python packages - Pandas, Dataprep, Sweetviz, Pycaret <br>
+                  <strong>Algorithm:</strong> Regression <br>
+                  <strong>Model:</strong> Huber Regressor
+                  <hr/>
+                </p>
+                <p style="text-align: justify" class="card-text txtcntr"> <strong>Goal:</strong> To predict standard scores for Texas High school by choosing the best model with highest accuracy based on the selected variables. <br>
+                  Dataset contains information about Texas' schools geography, parent's education and employment, number of students and teachers, percent free lunch and whether the school is Title1, virtual/non-virtual, Magnet or non-magnet. It has 1821 rows and 25 columns. <br>
+                <strong>Conclusion:</strong> The Huber Regressor was chosen due to its lowest RMSE value. Standard scores were successfully predicted, with an average of 85.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" style="margin: 10px 0px">
+            <div class="card h-100">
+              <img class="card-img-top" src="images/cn.jpg" alt="Card" style="width: 80%; height: auto; margin: 20px auto" />
+              <div class="card-body">
+                <h5 class="card-title txtcntr">
+                  <strong>PCCI Clinical Dataset Readmit status prediction</strong>
+                </h5>
+                <p>
+                  <hr/>
+                  <strong>Tool used:</strong> Google collaboratory <br>
+                  <strong>Packages used:</strong> Python packages - Pandas, Dataprep, Sweetviz, Pycaret <br>
+                  <strong>Algorithm:</strong> Classification <br>
+                  <strong>Model:</strong> Random Forest Classifier
+                  <hr/>
+                </p>
+                <p style="text-align: justify" class="card-text txtcntr"> <strong>Goal:</strong> To predict 'Readmit status' of the patient i.e whether the patient will get readmitted in 30 days or not.  <br>
+                  Dataset contains information about the physical attributes and vitals of the patient, care plan, health conditions, cost of intial stay and so on. It has 12980 rows and 29 columns.<br>
+                <strong>Conclusion:</strong> After creating a confusion matrix, we determined that the selected model should have less false positives meaning it predicted that patients wouldn't be readmitted when they actually would be. 
+                Reducing false positives will minimize confusion among care providers, allowing them to prepare accordingly. <br>
+                <strong>Result:</strong> Achieved approximately 87% accuracy in predicting readmission status.
+                </p>
+                <!-- <a href="#" class="card-link">Source</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Second Row Of Projects -->
+        <div class="row" style=" padding: 10px 0px">
+          <div class="col-md-4" style="margin: 10px 0px">
+            <div class="card h-100">
+              <img class="card-img-top" src="images/scat.png" alt="Card" style="width: 80%; height: auto; margin: 20px auto" />
+              <div class="card-body">
+                <h5 class="card-title txtcntr">
+
+                  
+                    <strong>New Jersey schools standard score prediction</strong>
+                  </a>
+                </h5>
+                <p>
+                  <hr/>
+                  <strong>Tool used:</strong> Google collaboratory <br>
+                  <strong>Packages used:</strong> Python packages - Pandas, Dataprep, Sweetviz, Pycaret <br>
+                  <strong>Algorithm:</strong> Regression <br>
+                  <strong>Model:</strong> Huber Regressor
+                  <hr/>
+                </p>
+                <p style="text-align: justify" class="card-text txtcntr"> <strong>Goal:</strong> To predict standard scores for New Jersey High school by choosing the best model with highest accuracy based on the selected variables. <br>
+                  Dataset contains information about NJ's schools geography, ethinicity, percent free lunch, number of students and teachers, and whether the school is Title1, virtual/non-virtual, Magnet or non-magnet. It has 416 rows and 29 columns.<br>
+                <strong>Conclusion:</strong> The Huber Regressor was chosen due to its lowest RMSE value. Standard scores were successfully predicted, with an average of 50.
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" style="margin: 10px 0px">
+            <div class="card h-100">
+              <img class="card-img-top" src="images/ofs.jpg" alt="Card" style="width: 80%; height: auto; margin: 20px auto" />
+              <div class="card-body">
+                <h5 class="card-title txtcntr">
+
+                  
+                    <strong>Trivalley Bike Buying Prediction</strong>
+                  </a>
+                </h5>
+                <p>
+                  <hr/>
+                  <strong>Tool used:</strong> Google collaboratory <br>
+                  <strong>Packages used:</strong> Python packages - Pandas, Dataprep, Sweetviz, Pycaret <br>
+                  <strong>Algorithm:</strong> Classification <br>
+                  <strong>Model:</strong> Gradient Boosting Classifier
+                  <hr/>
+                </p>
+                <p style="text-align: justify" class="card-text txtcntr"> <strong>Goal:</strong> To predict 'Bike Buyer' status of the customer i.e whether the customer will buy bike or not.  <br>
+                  Dataset contains information about the customer's age, gender, yearly income, number of house/car owned and children, geographical information and so on. It has 16519 rows and 26 columns.<br>
+                <strong>Conclusion:</strong> After creating a confusion matrix, we determined that the selected model should have fewer false positives, meaning it incorrectly predicted that a customer would buy a bike when they did not.
+                 Reducing false positives would decrease the disappointment of sellers regarding anticipated demand. 
+                Since fewer false positives indicate higher precision, we chose the Gradient Boosting Classifier model, which successfully predicted the bike-buying status of customers. <br>
+                <strong>Result:</strong> Achieved approximately 81% accuracy in predicting whether a customer will buy a bike or not.
+              </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" style="margin: 10px 0px">
+            <div class="card h-100">
+              <img class="card-img-top" src="images/wes.jpg" alt="Card" style="width: 80%; height: auto; margin: 20px auto" />
+              <div class="card-body">
+                <h5 class="card-title txtcntr">
+                
+                    <strong>Trivalley Average Month Spend prediction</strong>
+                  </a>
+                </h5>
+                <p>
+                  <hr/>
+                  <strong>Tool used:</strong> Google collaboratory <br>
+                  <strong>Packages used:</strong> Python packages - Pandas, Dataprep, Sweetviz, Pycaret <br>
+                  <strong>Algorithm:</strong> Regression <br>
+                  <strong>Model:</strong> Light Gradient Boosting Machine
+                  <hr/>
+                </p>
+                <p style="text-align: justify" class="card-text txtcntr"> <strong>Goal:</strong> To predict 'Average month spend' by the customer. <br>
+                  Dataset contains information about the customer's age, gender, yearly income, number of house/car owned and children, geographical information and so on. It has 16519 rows and 26 columns.<br>
+                <strong>Conclusion</strong> The Light Gradient Boosting Machine was chosen due to its lowest RMSE value. Avg month spend by customers were successfully predicted, with an average spend of 71 dollars.                
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="contact" align="center">
+    <h3>Contact:</h3>
+    <address>
+      <p>Email: priyankarao1904@gmail.com</p>
+    </address>
+    <p id="crights"></p>
+  </div>
+
+  <script type="text/javascript">
+    var fromYear = '2024';
+    var toYear = '';
+    var cpy = document.getElementById('crights');
+    var cYear = new Date().getFullYear();
+    if (cYear > 2024) {
+      toYear = ' - ' + cYear;
+    }
+    cpy.innerHTML = 'Copyrights &copy; ' + fromYear + toYear + ' prao | All Rights Reserved';
+  </script>
+</body>
+
+</html>
